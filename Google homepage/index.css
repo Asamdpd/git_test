@@ -1,3 +1,9 @@
+*{ 
+    margin: 0px; 
+    padding: 0px;
+    font-family: Calibri; 
+}
+
 li {
     display: inline;
     margin-left: 10px;
@@ -14,7 +20,7 @@ li {
     margin-right: 35px;
 }
 .nav {
-    font-family: Calibri;
+    
     margin-top: 10px;
     padding-top: 10px;
     padding-right: 15px;
@@ -42,7 +48,7 @@ li {
     width: 600px;
     border-radius: 40px;   
     border: 1px solid rgba(208, 208, 212, 0.945);
-    border-bottom: 1px solid rgba(208, 208, 212, 0.945);
+   
 }
 .search-bar:hover{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.19);
@@ -81,7 +87,7 @@ li {
     margin-right: auto;
     left: 0;
     right: 0;
-    text-align: center;
+    
 }
 
 #cat{
@@ -117,3 +123,105 @@ ul {
     margin: 0;
     padding: 0;
   }
+
+  .buttons{
+    position: absolute;
+    top: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 230px;
+  
+    border: none;
+  }
+
+  .buttons button{
+      color: rgba(0, 0, 0, 0.829);
+      height: 30px;
+      border: none;
+      background-color: rgb(240, 240, 240);
+  }
+
+  .buttons button:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.19);
+  }
+  
+  .buttons button:active{
+    border: 1px solid blue;
+  }
+
+  .buttons button:first-of-type{
+    margin-right: 5px;
+  }
+  
+  label {
+    position: absolute;
+    top: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 100;
+    border: none; 
+  }
+
+  label a:link  {
+      color: #1a0dab;
+      
+  }
+
+   footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* height: 2.5rem;   */
+    color: rgba(0,0,0,.54);  
+    background-color: rgb(242, 242, 242); 
+    /* height: 100px;        */
+  }
+
+  footer p:first-of-type{
+      padding-bottom: 10px;
+      margin: 20px 20px 0 20px;
+
+      
+  }
+
+  hr {
+    border: none;
+    height: 1px;
+    color: #333; 
+    background-color: rgb(206, 204, 204); 
+}
+
+
+
+.f1{
+    display: inline;
+    position: relative;
+    float: left;
+    padding: 15px 15px 15px 25px;
+   
+}
+
+.f1 a{
+    color: #70757a; 
+    margin: 0px 15px 0px 15px
+}
+
+.f2{
+    display: inline;
+    position: relative;
+    float: right;
+    padding: 15px 25px 15px 15px;
+    min-width: 300px;
+}
+
+.f2 a{
+    color: #70757a;
+    margin: 0px 15px 0px 15px
+}
