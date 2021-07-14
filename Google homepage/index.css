@@ -30,6 +30,60 @@ li {
     background-color: rgba(235, 230, 230, 0.925); 
 }
 
+.search-bar{
+    position: absolute;
+    top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 40px;
+    width: 600px;
+    border-radius: 40px;   
+    border: 1px solid rgba(208, 208, 212, 0.945);
+    border-bottom: 1px solid rgba(208, 208, 212, 0.945);
+}
+.search-bar:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.19);
+    
+}
+
+.search-bar input{
+    outline: none;
+    height: 35px;
+    width: 500px;
+    border: none;
+    
+}
+
+#search{
+    margin: auto;
+  width: 20px;
+  padding: 10px;
+  position: absolute;
+  right: 550px;
+  
+}
+
+#microphone{
+    margin: auto;
+    width: 20px;
+    padding: 10px;
+    position: absolute;
+    left: 550px; 
+}
+
+#google {
+    position: absolute;
+    top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
 #cat{
     border-radius: 50px;
     width: 32px;
